@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Neue", cursive;
+}
+
+.logo-superior {
+    width: 220px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.logo-superior:hover {
+    opacity: .8;
+}
+
+.banner-superior,
+.banner-central {
+    width: 100vw;
+    height: auto;
+}
+
+
+h3 {
+    margin: 165px 20px;
+    width: 60%;
+}
+
+.sup-container {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.button-sign-in {
+    border: none;
+    border-radius: 10px;
+    background: #DEDEDE;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #1E8D89;
+}
+
+.button-sign-in:hover {
+    opacity: .8;
+}
+
+.container,
+section {
+    position: relative;
+    text-align: center;
+}
+
+.linkwpp {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: 1s;
+}
+
+.linkwpp:hover {
+    transform: translateY(-15px);
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    background: #DEDEDE;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -185px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 5px;
+    justify-content: center;
+    transition: left 1s ease-in-out;
+    align-items: center;
+}
+
+input,
+textarea {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #00fff0;
+}
+
+.form-button {
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(30, 141, 137, 1) 0%, rgba(80, 77, 77, 1) 100%);
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+span {
+    color: #1E8D89;
+}
+
+.inf-container {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 60%;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width:930px) {
+
+    .sup-container {
+        left: 25%;
+        top: 15%
+    }
+
+    @media (max-width:750px) {
+
+        .logo-superior {
+            width: 115px;
+            margin: 10px;
+        }
+
+        .sup-container {
+            width: 230px;
+            font-size: 7px;
+            gap: 10px;
+        }
+
+        .button-sign-in {
+            width: 80px;
+            height: 12px;
+            font-size: 8px;
+        }
+
+        h3 {
+            margin: 55px 20px;
+            width: 60%;
+            font-size: 15px;
+        }
+
+        .inf-container {
+            width: 230px;
+            font-size: 7px;
+            gap: 10px;
+            top: 38%
+        }
+        .linkwpp {
+            height: 40px;
+            right: 10px;
+            bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
